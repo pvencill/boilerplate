@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var tempt = require('../lib'),
+var boilerplate = require('../lib'),
 	pkg   = require('../package.json'),
 	program = require('commander');
 
@@ -13,6 +13,6 @@ program.version(pkg.version)
 var from = program.args[0],
 	to = program.args[1];
 
-tempt(from,to, function(err){
+boilerplate.generate(from,to, function(err){
 	console.log(arguments);
 });
