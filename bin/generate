@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+var tempt = require('../lib'),
+	pkg   = require('../package.json'),
+	program = require('commander');
+
+program.version(pkg.version)
+	.parse(process.argv);
+
+
+//todo: trap too few args ?
+
+var from = program.args[0],
+	to = program.args[1];
+
+tempt(from,to, function(err){
+	console.log(arguments);
+});
