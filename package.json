@@ -3,10 +3,22 @@
   "version": "0.0.3",
   "description": "Generic, highly customizeable application generator",
   "main": "./lib/index.js",
-  "bin": "./bin/boilerplate",
+  "bin": {
+    "boilerplate" : "./bin/boilerplate"
+    },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "contributors":[
+        {
+            "name":"Erin Noe-Payne",
+            "email":"saizul@gmail.com"
+        },
+        {
+            "name":"Paul Vencil",
+            "email":"paul.vencill@gmail.com"
+        }
+    ],
   "repository": {
     "type": "git",
     "url": "git://github.com/pvencill/boilerplate.git"
@@ -15,7 +27,7 @@
     "generator",
     "nodejs"
   ],
-  "author": "Paul Vencill & Erin Noe-Payne",
+  "author": "Paul Vencill",
   "license": "BSD",
   "dependencies": {
     "wrench": "~1.4.3",
