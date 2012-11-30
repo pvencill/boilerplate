@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "description": "Generic, highly customizeable application generator",
   "main": "./lib/index.js",
+  "bin" : "./bin/boilerplate",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
