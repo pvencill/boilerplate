@@ -34,7 +34,7 @@ Running the following command
 
 	$ boilerplate /Users/me /Users/other name:Howie
 
-Would result in the /Users/me being copied to /Users/other and the creation of /Users/other/mydata.json with the following content:
+Would result in the /Users/me directory being copied to /Users/other and the creation of /Users/other/mydata.json with the following content:
 ```js
 { "name" : "Howie"}
 ```
