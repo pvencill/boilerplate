@@ -5,7 +5,9 @@ Fast, generic, highly customizeable application generator using node.js.
 
 ## Installation
 
-For now, just clone this repository. Hopefully we'll resolve the npm module registration soon.
+```sh
+npm install -g boilerplate
+```
 
 ## Quick start
 
