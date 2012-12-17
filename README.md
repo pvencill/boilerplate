@@ -48,7 +48,7 @@ var boilerplate = require('boilerplate');
 
 boilerplate.generate('git://github.com/myname/myrepo', '~/workspace/my-new-app', function(err){  console.log(err); });
 
-boilerplate.template('~/workspace/my-new-app', templateData); // where templateData is a JS object to be passed into the handlebars template
+boilerplate.template('~/workspace/my-new-app', templateData, function(err){ console.log(err);}); // where templateData is a JS object to be passed into the handlebars template
 
 ```
 
